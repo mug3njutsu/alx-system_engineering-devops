@@ -1,5 +1,2 @@
 #!/bin/bash
-ls -la
-ls -la ~
-ls -la /boot
-
+for i in "" "../" "/boot"; do ls -la $i; done
