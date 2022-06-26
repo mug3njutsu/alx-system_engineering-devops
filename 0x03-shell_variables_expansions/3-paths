@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | sed "s/:/\n/g" | awk 'NF' | wc -l
+echo $PATH | tr ":" "\n" | grep "\S"
