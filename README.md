@@ -1,3 +1,3 @@
 ```
-0x00. Shell, basics
+System engineering & DevOps
 ```
